@@ -4,12 +4,14 @@ public class GradeCalculator
 {
         public static void main(String[] args)
         {
+
                 int PracticeProblem, Labs, Mid, Final,Total;
 
                 Scanner sc = new Scanner(System.in);
-
+                //Promt the user to enter the score
                 System.out.print("Enter the score for practice problems:");
                 PracticeProblem = sc.nextInt();
+                //If the score they enter is invalid promt them to enter again
                 while(PracticeProblem<0 || PracticeProblem>44) {
                 	if(PracticeProblem<0 || PracticeProblem>44)
                 	System.out.print("The score you enter are out of range, Please re-enter again: ");
@@ -41,9 +43,10 @@ public class GradeCalculator
                 	System.out.print("The score you enter are out of range, Please re-enter again: ");
                 	Final = sc.nextInt();
                 }
-
+                //The final grade you get for the course
                 Total = PracticeProblem + Labs + Mid + Final;
 
+                //Print out the actual grade and letter grade
                 if(Total > 89)
                         System.out.print("The average score you got is " + Total + ", Grade A");
                 else if(Total > 79)
