@@ -1,0 +1,16 @@
+Enter the score for practice problems:45
+The score you enter are out of range, Please re-enter again: 30
+Enter the score for Labs:16
+The score you enter are out of range, Please re-enter again: 14
+Enter the score you got on midterm:25
+The score you enter are out of range, Please re-enter again: 20
+Enter the score you got on final:25
+The score you enter are out of range, Please re-enter again: 20
+The average score you got is 84, Grade B
+
+
+Enter the score for practice problems:20
+Enter the score for Labs:10
+Enter the score you got on midterm:15
+Enter the score you got on final:20
+The average score you got is 65, Grade D
